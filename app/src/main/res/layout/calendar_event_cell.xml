@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+	android:id = "@+id/layout_calendar_event"
+	android:layout_width = "match_parent"
+	android:layout_height = "wrap_content"
+	android:layout_marginBottom = "3dp"
+	android:orientation = "vertical"
+	android:padding = "7dp">
+
+	<LinearLayout
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:layout_marginTop = "2dp"
+		android:orientation = "horizontal"
+		android:weightSum = "2">
+
+		<TextView
+			android:layout_width = "0dp"
+			android:layout_height = "wrap_content"
+			android:layout_weight = "0.75"
+			android:text = "Event:"
+			android:textAlignment = "viewStart"
+			android:textColor = "@color/colorAccent"
+			android:textSize = "12sp"
+			android:textStyle = "bold" />
+
+		<TextView
+			android:id = "@+id/app_number_tv"
+			android:layout_width = "0dp"
+			android:layout_height = "wrap_content"
+			android:layout_weight = "1.25"
+			android:text = "TextView"
+			android:textAlignment = "viewStart"
+			android:textColor = "@color/black"
+			android:textSize = "12sp" />
+
+
+	</LinearLayout>
+
+	<!--<LinearLayout
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:layout_marginTop = "2dp"
+		android:orientation = "horizontal"
+		android:weightSum = "2">
+
+		<TextView
+			android:layout_width = "0dp"
+			android:layout_height = "wrap_content"
+			android:layout_weight = "0.75"
+			android:text = "Title:"
+			android:textAlignment = "viewStart"
+			android:textColor = "@color/colorAccent"
+			android:textSize = "12sp"
+			android:textStyle = "bold" />
+
+		<TextView
+			android:id = "@+id/app_title_tv"
+			android:layout_width = "0dp"
+			android:layout_height = "wrap_content"
+			android:layout_weight = "1.25"
+			android:text = "TextView"
+			android:textAlignment = "viewStart"
+			android:textColor = "@color/black"
+			android:textSize = "12sp" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:layout_marginTop = "2dp"
+		android:orientation = "horizontal"
+		android:weightSum = "2">
+
+		<TextView
+			android:layout_width = "0dp"
+			android:layout_height = "wrap_content"
+			android:layout_weight = "0.75"
+
+			android:text = "Filing Date:"
+			android:textAlignment = "viewStart"
+			android:textColor = "@color/colorAccent"
+			android:textSize = "12sp"
+			android:textStyle = "bold" />
+
+		<TextView
+			android:id = "@+id/applied_date_tv"
+			android:layout_width = "0dp"
+			android:layout_height = "wrap_content"
+			android:layout_weight = "1.25"
+
+			android:text = "TextView"
+			android:textAlignment = "viewStart"
+			android:textColor = "@color/black"
+			android:textSize = "12sp" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:layout_marginTop = "2dp"
+		android:orientation = "horizontal"
+		android:weightSum = "2">
+
+		<TextView
+			android:layout_width = "0dp"
+			android:layout_height = "wrap_content"
+			android:layout_weight = "0.75"
+
+			android:text = "License id:"
+			android:textAlignment = "viewStart"
+			android:textColor = "@color/colorAccent"
+			android:textSize = "12sp"
+			android:textStyle = "bold" />
+
+		<TextView
+			android:id = "@+id/job_num_tv"
+			android:layout_width = "0dp"
+			android:layout_height = "wrap_content"
+			android:layout_weight = "1.25"
+			android:text = "TextView"
+			android:textAlignment = "viewStart"
+			android:textColor = "@color/black"
+			android:textSize = "12sp" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:layout_marginTop = "2dp"
+		android:orientation = "horizontal"
+		android:weightSum = "2">
+
+		<TextView
+			android:layout_width = "0dp"
+			android:layout_height = "wrap_content"
+			android:layout_weight = "0.75"
+			android:text = "Action required:"
+			android:textAlignment = "viewStart"
+			android:textColor = "@color/colorAccent"
+			android:textSize = "12sp"
+			android:textStyle = "bold" />
+
+		<TextView
+			android:id = "@+id/pat_application_tv"
+			android:layout_width = "0dp"
+			android:layout_height = "wrap_content"
+			android:layout_weight = "1.25"
+			android:text = "TextView"
+			android:textAlignment = "viewStart"
+			android:textColor = "@color/black"
+			android:textSize = "12sp" />
+	</LinearLayout>-->
+
+</LinearLayout>
